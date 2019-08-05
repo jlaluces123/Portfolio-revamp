@@ -33,6 +33,7 @@
   left: 0px;
   z-index: 1;
   background: rgba(0, 0, 0, 1);
+  cursor: ne-resize;
 
   display: flex;
   flex-direction: row;
@@ -62,7 +63,14 @@
   font-size: 20px;
   font-weight: bold;
   text-transform: uppercase;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.hidden__btn:hover {
+  border-bottom: 2px solid grey;
+  padding-bottom: 5px;
+  transition: 0.1s ease-in-out;
 }
 
 .hidden__contact {
@@ -71,6 +79,7 @@
   flex-direction: column;
   justify-content: space-evenly;
   height: 80%;
+  font-family: 'PT Sans', sans-serif;
 }
 
 .contact__header {

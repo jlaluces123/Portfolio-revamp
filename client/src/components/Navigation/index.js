@@ -6,7 +6,6 @@ import { NavLink, Link } from "react-router-dom";
 
 // Assets
 
-
 const Navigation = (props) => {
   return (
     <div className="container">
