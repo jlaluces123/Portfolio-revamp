@@ -5,6 +5,7 @@ import './App.css';
 // Component Imports
 import { Route } from "react-router-dom";
 import Navigation from "./components/Navigation/index.js";
+import Home from "./components/Home/index.js";
 
 
 class App extends React.Component {
@@ -31,9 +32,7 @@ class App extends React.Component {
         </header>
 
         <main>
-          {/* <h3>&#9776;</h3>
-          <h3>&times;</h3> */}
-          <code>Main content</code>
+          <Home />
         </main>
       </div>
     );
