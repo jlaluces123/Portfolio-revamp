@@ -1,9 +1,8 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 // Component Imports
-import { Route } from "react-router-dom";
+// import { Route } from "react-router-dom";
 import Navigation from "./components/Navigation/index.js";
 import Home from "./components/Home/index.js";
 
@@ -14,7 +13,7 @@ class App extends React.Component {
   };
 
   componentDidMount() {
-    console.log("did mount");
+    // console.log("did mount");
     // console.log(document.getElementsByClassName("hidden")[0].style.height);
   };
 

@@ -2,7 +2,7 @@ import React from 'react';
 import "./home.css";
 
 // Component Imports
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import Projects from "../Projects/index.js";
 
 // Assets
@@ -45,8 +45,8 @@ class Home extends React.Component {
   };
 
   componentDidUpdate() {
-    console.log("update occurred");
-    console.log(this.state.projects);
+    // console.log("update occurred");
+    // console.log(this.state.projects);
   };
 
   render() {

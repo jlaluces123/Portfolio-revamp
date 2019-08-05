@@ -4,7 +4,7 @@ import React from 'react';
 import { Link } from "react-router-dom";
 
 const Project = (props) => {
-  console.log("props from Project\n", props);
+  // console.log("props from Project\n", props);
   return (
     // Project Beginning
     <Link to = {props.project.link}>
