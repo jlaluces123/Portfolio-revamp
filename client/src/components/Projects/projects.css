@@ -1,0 +1,38 @@
+.list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.project {
+  margin-bottom: 2%;
+  position: relative; /* relative to keep all the position absolutes inside their own box */
+  border-radius: 10px;
+}
+
+.project__img {
+  max-width: 500px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  transition: .5s ease;
+  opacity: 1;
+}
+
+.img__overlay {
+  opacity: 0;
+  transition: .5s ease;
+  color: black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* put into middle of picture */
+}
+
+.project:hover .project__img {
+  opacity: 0.3;
+}
+
+.project:hover .img__overlay {
+  opacity: 1;
+}
