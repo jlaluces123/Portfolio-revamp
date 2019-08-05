@@ -11,6 +11,7 @@ const Home = () => {
           <h1>Hello, I am Jonathan Laluces</h1>
         </div>
       </div>
+
     </div>
   );
 };
