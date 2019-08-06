@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 
 // Component Imports
-// import { Route } from "react-router-dom";
+import { Route } from "react-router-dom";
 import Navigation from "./components/Navigation/index.js";
 import Home from "./components/Home/index.js";
 
@@ -31,8 +31,10 @@ class App extends React.Component {
         </header>
 
         <main>
-          <Home />
+          <Route exact path = "/" component = {Home} />
+          {/* <Route path = "/projects/:name" component = {ProjectDetail} /> */}
         </main>
+
       </div>
     );
   };
