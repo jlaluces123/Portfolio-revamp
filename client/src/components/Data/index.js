@@ -16,7 +16,7 @@ function tacoInDepth() {
       </p>
 
       <p className = "description__paragraph">
-        Using the official <code>Yelp API</code> alongside the extensive <code>Google Maps API</code>, users can create events at REAL taco places.
+        Using the official <code>Yelp API</code> alongside the extensive <code>Google Maps API</code>, users can create events at REAL taco places. In addition, we made logging in easy with <code>Firebase's Authorization</code>! The hassle of signing up for random services is a thing of the past!
       </p>
     </div>
   );
