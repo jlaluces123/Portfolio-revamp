@@ -5,6 +5,7 @@ import './App.css';
 import { Route } from "react-router-dom";
 import Navigation from "./components/Navigation/index.js";
 import Home from "./components/Home/index.js";
+import SinglePage from "./components/SinglePage/index.js";
 
 
 class App extends React.Component {
@@ -32,7 +33,7 @@ class App extends React.Component {
 
         <main>
           <Route exact path = "/" component = {Home} />
-          {/* <Route path = "/projects/:name" component = {ProjectDetail} /> */}
+          <Route path = "/projects/:name" component = {SinglePage} />
         </main>
 
       </div>

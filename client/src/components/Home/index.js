@@ -18,6 +18,8 @@ export const projectArr = [
     "link": "/projects/lets-get-tacos",
     "description": "Modern Web App with CRUD functionality",
     "image": TacoProject,
+    "github": "https://github.com/Lambda-School-Labs/labs10-taco-run",
+    "demo": "",
   },
 
   {
@@ -25,6 +27,8 @@ export const projectArr = [
     "link": "/projects/freely",
     "description": "Web App Made With React to help users relax after a long day",
     "image": FreelyProject,
+    "github": "https://github.com/jlaluces123/Freely",
+    "demo": "",
   },
 
   {
@@ -32,6 +36,8 @@ export const projectArr = [
     "link": "/projects/blog",
     "description": "Blog website made with React and Gatsby",
     "image": BlogProject,
+    "github": "https://github.com/jlaluces123/Gatsby-Blog-Site-Remake",
+    "demo": "",
   },
 
   {
@@ -39,6 +45,8 @@ export const projectArr = [
     "link": "/projects/huddle-landing-page",
     "description": "Design turned into code front-end challenge to work on fundamentals",
     "image": HuddleProject,
+    "github": "https://github.com/jlaluces123/Huddle-Landing-Page-Challenge",
+    "demo": "",
   },
 ];
 
