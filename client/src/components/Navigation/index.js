@@ -32,9 +32,9 @@ const Navigation = (props) => {
             <p>Los Angeles, CA</p>
 
             <div className="btn__container">
-              <li><a href="/"><img className = "social__btn" alt = "social media button" /></a></li>
-              <li><a href="/"><img className = "social__btn" alt = "social media button" /></a></li>
-              <li><a href="/"><img className = "social__btn" alt = "social media button" /></a></li>
+              <li><a href="/"><img className = "social__btn" /></a></li>
+              <li><a href="/"><img className = "social__btn" /></a></li>
+              <li><a href="/"><img className = "social__btn" /></a></li>
             </div>
           </div>
         </div>
