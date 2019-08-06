@@ -22,11 +22,22 @@
 .img__overlay {
   opacity: 0;
   transition: .5s ease;
-  color: black;
+  background-color: rgba(0,0,0,0.75);
+  color: white;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%); /* put into middle of picture */
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay__paragraph {
+  font-family: 'PT Sans', sans-serif;
 }
 
 .project:hover .project__img {
@@ -35,4 +46,5 @@
 
 .project:hover .img__overlay {
   opacity: 1;
+  border-radius: 10px;
 }

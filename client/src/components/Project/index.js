@@ -14,7 +14,7 @@ const Project = (props) => {
 
         <div className="img__overlay">
           <h3>{props.project.title}</h3>
-          <p>{props.project.description}</p>
+          <p className = "overlay__paragraph">{props.project.description}</p>
         </div>
       </div>
     </Link>

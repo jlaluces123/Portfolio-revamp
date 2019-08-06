@@ -32,7 +32,7 @@ class Home extends React.Component {
           <img className = "intro__pic" src = {Profile} alt = "smiling version of me" />
           <div className="intro__text">
             <h4 className = "intro__title">Front-End Web Developer & Cellist</h4>
-            <h1 className = "intro__name">Hello, I am Jonathan Laluces</h1>
+            <h1 className = "intro__name">I'm Jonathan Laluces</h1>
           </div>
         </div>
 
