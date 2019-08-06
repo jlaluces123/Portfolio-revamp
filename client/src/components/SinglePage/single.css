@@ -1,0 +1,50 @@
+.individual-project {
+  margin: 0 20%;
+}
+
+.project__header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 5%;
+  margin-bottom: 3%;
+  align-items: center;
+}
+
+.info__text {
+  font-size: 18px;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.view__btn {
+  text-decoration: none;
+  color: #2980b9;
+  font-weight: bold;
+  transition: 0.2s ease;
+}
+
+.view__btn:hover {
+  border-bottom: 3px solid #2980b9;
+  padding-bottom: 2px;
+}
+
+.project__img-second {
+  text-align: center;
+  margin-bottom: 2%;
+}
+
+.second__img {
+  width: 100%;
+}
+
+.tech__title {
+  margin: 0 5%;
+  margin-bottom: 2%;
+  color: #484848;
+}
+
+.description__paragraph {
+  margin: 0 5%;
+  margin-bottom: 2%;
+  font-family: 'PT Sans', sans-serif;
+}

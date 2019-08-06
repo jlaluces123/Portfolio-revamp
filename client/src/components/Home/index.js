@@ -4,52 +4,10 @@ import "./home.css";
 // Component Imports
 // import { Link } from "react-router-dom";
 import Projects from "../Projects/index.js";
+import { projectArr } from "../Data/index.js";
 
 // Assets
 import Profile from "../../assets/cropped_smiling.webp";
-import TacoProject from "../../assets/taco_dashboard.webp";
-import FreelyProject from "../../assets/meditation_app.webp";
-import BlogProject from "../../assets/blog_home.webp";
-import HuddleProject from "../../assets/huddle_challenge.webp";
-
-export const projectArr = [
-  {
-    "title": "Lets Get Tacos",
-    "link": "/projects/lets-get-tacos",
-    "description": "Modern Web App with CRUD functionality",
-    "image": TacoProject,
-    "github": "https://github.com/Lambda-School-Labs/labs10-taco-run",
-    "demo": "",
-  },
-
-  {
-    "title": "Freely",
-    "link": "/projects/freely",
-    "description": "Web App Made With React to help users relax after a long day",
-    "image": FreelyProject,
-    "github": "https://github.com/jlaluces123/Freely",
-    "demo": "",
-  },
-
-  {
-    "title": "Thoughts Of A Developer",
-    "link": "/projects/blog",
-    "description": "Blog website made with React and Gatsby",
-    "image": BlogProject,
-    "github": "https://github.com/jlaluces123/Gatsby-Blog-Site-Remake",
-    "demo": "",
-  },
-
-  {
-    "title": "Huddle Landing Page Challenge",
-    "link": "/projects/huddle-landing-page",
-    "description": "Design turned into code front-end challenge to work on fundamentals",
-    "image": HuddleProject,
-    "github": "https://github.com/jlaluces123/Huddle-Landing-Page-Challenge",
-    "demo": "",
-  },
-];
-
 
 class Home extends React.Component {
   state = {
