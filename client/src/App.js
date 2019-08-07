@@ -6,6 +6,7 @@ import { Route } from "react-router-dom";
 import Navigation from "./components/Navigation/index.js";
 import Home from "./components/Home/index.js";
 import SinglePage from "./components/SinglePage/index.js";
+import Footer from "./components/Footer/index.js";
 
 
 class App extends React.Component {
@@ -35,6 +36,10 @@ class App extends React.Component {
           <Route exact path = "/" component = {Home} />
           <Route path = "/projects/:name" component = {SinglePage} />
         </main>
+
+        <footer>
+          <Footer />
+        </footer>
 
       </div>
     );
