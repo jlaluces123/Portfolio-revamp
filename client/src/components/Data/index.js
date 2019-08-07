@@ -1,5 +1,3 @@
-import React from 'react';
-
 // Assets
 import TacoProject from "../../assets/taco_dashboard.webp";
 import TacoProject2 from "../../assets/taco_create_lg.webp";
