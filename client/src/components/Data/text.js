@@ -57,8 +57,8 @@ export function freelyInDepth() {
       </p>
 
       <p className="description__paragraph">
-        With the help of <code>Component Libraries</code> such as: <code>React-Animated-Slider</code> and <code>React-Audio-Player</code>
-        I was able to create a meditation-app that works great on all devices!
+        With the help of <code>Component Libraries</code>, I used <code>React-Animated-Slider</code> and <code>React-Audio-Player</code>
+        and was able to create a meditation-app that works great on all devices!
       </p>
     </div>
   )
@@ -85,6 +85,39 @@ export function freelyTechStack() {
       <p className="description__paragraph">
         <code>React-Animated-Slider</code> and <code>React-Audio-Player</code> allowed me to create a better <code>User experience</code> in the meditation page.
         I thought it would be a good idea to incorporate some amazing quotes as the user listens to the soothing sounds of music.
+      </p>
+    </div>
+  );
+};
+
+
+// Huddle Project -- Text
+export function huddleInDepth() {
+  return (
+    <div className="description">
+      <p className = "description__paragraph">
+        It is time for some good old <code>HTML</code> and <code>CSS</code>! From <code>frontendmentor.io</code>, I took up one of the challanges to create a
+        landing page given the assets and an empty html file.
+      </p>
+
+      <p className = "description__paragraph">
+        Using the <code>design</code>, I created the HTML code with the help of <code>Flexbox</code>! This side project is meant to test my fundamentals in:
+        <code>Responsive Development for Mobile</code> and <code>cleanliness of code</code>.
+      </p>
+    </div>
+  );
+};
+
+export function huddleTechStack() {
+  return (
+    <div className="tech">
+      <p className="description__paragraph">
+        Surprise! There is no special magic that I used to create this project. With "Plain Jane" HTML and CSS, I was able to turn <code>deisgn into code</code>!
+      </p>
+
+      <p className="description__paragraph">
+        Alongside HTML and CSS, I used <code>Flexbox</code>, a layout-method used to help shift content on the page! Instead of making redundant code,
+        Flexbox allows me to space content and containers with ease, leaving me with <code>DRY</code> code.
       </p>
     </div>
   );

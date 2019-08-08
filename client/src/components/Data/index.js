@@ -9,6 +9,10 @@ import BlogProject from "../../assets/blog_home.webp";
 
 import HuddleProject from "../../assets/huddle_challenge.webp";
 
+import GiphyClone from "../../assets/giphy_clone.webp";
+
+import Ngroups from "../../assets/ngroups_project.webp";
+
 // Text Data
 import {
   tacoInDepth,
@@ -16,6 +20,11 @@ import {
 
   freelyInDepth,
   freelyTechStack,
+
+
+
+  huddleInDepth,
+  huddleTechStack,
 } from "./text.js";
 
 export const projectArr = [
@@ -60,10 +69,36 @@ export const projectArr = [
     "link": "/projects/huddle-landing-page",
     "description": "Design turned into code front-end challenge to work on fundamentals",
     "image": HuddleProject,
-    "secondImage": "",
-    "inDepth": "",
-    "techStack": "",
+    "secondImage": HuddleProject,
+    "inDepth": huddleInDepth(),
+    "techStack": huddleTechStack(),
     "github": "https://github.com/jlaluces123/Huddle-Landing-Page-Challenge",
     "demo": "",
   },
+
+  {
+    "title": "Giphy Clone Side Project",
+    "link": "/projects/giphy-clone",
+    "description": "Taking one of my most used apps and creating a neat replica",
+    "image": GiphyClone,
+    "secondImage": "",
+    "inDepth": huddleInDepth(),
+    "techStack": huddleTechStack(),
+    "github": "https://github.com/jlaluces123/Giphy-Clone",
+    "demo": "https://giphy-clone-6a8f9.firebaseapp.com/",
+  },
+
+
+  {
+    "title": "Neighborhood Groups Finder",
+    "link": "/projects/neighborhood-groups-finder",
+    "description": "Project to help my church introduce guests to the neighborhood groups to get to know them better",
+    "image": Ngroups,
+    "secondImage": "",
+    "inDepth": huddleInDepth(),
+    "techStack": huddleTechStack(),
+    "github": "https://github.com/jlaluces123/ngroups-frontend",
+    "demo": "",
+  },
+
 ];
