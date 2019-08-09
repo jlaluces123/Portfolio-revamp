@@ -94,40 +94,6 @@ export function freelyTechStack() {
 
 // --------------------------------------------------------------------------------------------------------------------------------------------
 
-// Huddle Project -- Text
-export function huddleInDepth() {
-  return (
-    <div className="description">
-      <p className = "description__paragraph">
-        It is time for some good old <code>HTML</code> and <code>CSS</code>! From <code>frontendmentor.io</code>, I took up one of the challanges to create a
-        landing page given the assets and an empty html file.
-      </p>
-
-      <p className = "description__paragraph">
-        Using the <code>design</code>, I created the HTML code with the help of <code>Flexbox</code>! This side project is meant to test my fundamentals in:
-        <code>Responsive Development for Mobile</code> and <code>cleanliness of code</code>.
-      </p>
-    </div>
-  );
-};
-
-export function huddleTechStack() {
-  return (
-    <div className="tech">
-      <p className="description__paragraph">
-        Surprise! There is no special magic that I used to create this project. With "Plain Jane" HTML and CSS, I was able to turn <code>deisgn into code</code>!
-      </p>
-
-      <p className="description__paragraph">
-        Alongside HTML and CSS, I used <code>Flexbox</code>, a layout-method used to help shift content on the page! Instead of making redundant code,
-        Flexbox allows me to space content and containers with ease, leaving me with <code>DRY</code> code.
-      </p>
-    </div>
-  );
-};
-
-// --------------------------------------------------------------------------------------------------------------------------------------------
-
 // Giphy Project -- Text
 export function giphyInDepth() {
   return (
@@ -168,3 +134,77 @@ export function giphyTechStack() {
 };
 
 // --------------------------------------------------------------------------------------------------------------------------------------------
+
+export function nGroupsInDepth() {
+  return (
+    <div className="description">
+      <p className = "description__paragraph">
+        Giphy is something I have used quite a bit during my spare time, so I thought why not try to recreate it? Using there
+        <code>Official API</code>, I was able to make a plethora of <code>API Calls</code> from my front end code!
+      </p>
+
+      <p className="description__paragraph">
+        With the help of the <code>Giphy SDK</code> (software development kit) and <code>Official Giphy API</code>, I brought one of my most
+        favorite side projects to life! The app features the ability to: <code>dynamically search</code> for Gifs, see the most
+        trending gifs, as well as view stickers!
+      </p>
+    </div>
+  );
+};
+
+export function nGroupsTechStack() {
+  return (
+    <div className="tech">
+      <p className="description__paragraph">
+        For hosting, I decided to go with <code>Firebase's Hosting Service</code> this time around. With Firebase, it was
+        super easy to host my react code and comes with a plethora of services like authorization which could come in handy for the future.
+      </p>
+
+      <p className="description__paragraph">
+        Since I knew this application would have more than one page, I decided to go with <code>React-Router-DOM</code> as it provides, in my opinion, the best way to handle routing dynamically.
+      </p>
+
+
+      <p className="description__paragraph">
+        Using <code>React's State</code> and <code>Component Lifecycle Methods</code>, I was able to <code>fetch data</code> from the API, and pass out the
+        information my components need accordingly.
+      </p>
+    </div>
+  );
+};
+
+
+
+// --------------------------------------------------------------------------------------------------------------------------------------------
+
+// Huddle Project -- Text
+export function huddleInDepth() {
+  return (
+    <div className="description">
+      <p className = "description__paragraph">
+        It is time for some good old <code>HTML</code> and <code>CSS</code>! From <code>frontendmentor.io</code>, I took up one of the challanges to create a
+        landing page given the assets and an empty html file.
+      </p>
+
+      <p className = "description__paragraph">
+        Using the <code>design</code>, I created the HTML code with the help of <code>Flexbox</code>! This side project is meant to test my fundamentals in:
+        <code>Responsive Development for Mobile</code> and <code>cleanliness of code</code>.
+      </p>
+    </div>
+  );
+};
+
+export function huddleTechStack() {
+  return (
+    <div className="tech">
+      <p className="description__paragraph">
+        Surprise! There is no special magic that I used to create this project. With "Plain Jane" HTML and CSS, I was able to turn <code>deisgn into code</code>!
+      </p>
+
+      <p className="description__paragraph">
+        Alongside HTML and CSS, I used <code>Flexbox</code>, a layout-method used to help shift content on the page! Instead of making redundant code,
+        Flexbox allows me to space content and containers with ease, leaving me with <code>DRY</code> code.
+      </p>
+    </div>
+  );
+};

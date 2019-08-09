@@ -13,6 +13,7 @@ import GiphyClone from "../../assets/giphy_clone.webp";
 import GiphyClone2 from "../../assets/giphy_clone_lg.webp";
 
 import Ngroups from "../../assets/ngroups_project.webp";
+import Ngroups2 from "../../assets/ngroups_lg.webp";
 
 // Text Data
 import {
@@ -22,13 +23,14 @@ import {
   freelyInDepth,
   freelyTechStack,
 
-
-
-  huddleInDepth,
-  huddleTechStack,
+  nGroupsInDepth,
+  nGroupsTechStack,
 
   giphyInDepth,
   giphyTechStack,
+
+  huddleInDepth,
+  huddleTechStack,
 } from "./text.js";
 
 
@@ -76,9 +78,9 @@ export const projectArr = [
     "link": "/projects/neighborhood-groups-finder",
     "description": "Project to help my church introduce guests to the neighborhood groups to get to know them better",
     "image": Ngroups,
-    "secondImage": "",
-    "inDepth": huddleInDepth(),
-    "techStack": huddleTechStack(),
+    "secondImage": Ngroups2,
+    "inDepth": nGroupsInDepth(),
+    "techStack": nGroupsTechStack(),
     "github": "https://github.com/jlaluces123/ngroups-frontend",
     "demo": "https://neighborhood-groups-finder.firebaseapp.com/",
   },
