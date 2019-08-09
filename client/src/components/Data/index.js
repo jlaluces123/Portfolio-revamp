@@ -31,6 +31,8 @@ import {
   giphyTechStack,
 } from "./text.js";
 
+
+
 export const projectArr = [
   {
     "title": "Lets Get Tacos",
@@ -53,31 +55,7 @@ export const projectArr = [
     "inDepth": freelyInDepth(),
     "techStack": freelyTechStack(),
     "github": "https://github.com/jlaluces123/Freely",
-    "demo": "",
-  },
-
-  {
-    "title": "Thoughts Of A Developer",
-    "link": "/projects/blog",
-    "description": "Blog website made with React and Gatsby",
-    "image": BlogProject,
-    "secondImage": "",
-    "inDepth": "",
-    "techStack": "",
-    "github": "https://github.com/jlaluces123/Gatsby-Blog-Site-Remake",
-    "demo": "",
-  },
-
-  {
-    "title": "Huddle Landing Page Challenge",
-    "link": "/projects/huddle-landing-page",
-    "description": "Design turned into code front-end challenge to work on fundamentals",
-    "image": HuddleProject,
-    "secondImage": HuddleProject,
-    "inDepth": huddleInDepth(),
-    "techStack": huddleTechStack(),
-    "github": "https://github.com/jlaluces123/Huddle-Landing-Page-Challenge",
-    "demo": "",
+    "demo": "https://freely-db7b0.firebaseapp.com/",
   },
 
   {
@@ -103,6 +81,30 @@ export const projectArr = [
     "techStack": huddleTechStack(),
     "github": "https://github.com/jlaluces123/ngroups-frontend",
     "demo": "https://neighborhood-groups-finder.firebaseapp.com/",
+  },
+
+  {
+    "title": "Thoughts Of A Developer",
+    "link": "/projects/blog",
+    "description": "Blog website made with React and Gatsby",
+    "image": BlogProject,
+    "secondImage": "",
+    "inDepth": "",
+    "techStack": "",
+    "github": "https://github.com/jlaluces123/Gatsby-Blog-Site-Remake",
+    "demo": "",
+  },
+
+  {
+    "title": "Huddle Landing Page Challenge",
+    "link": "/projects/huddle-landing-page",
+    "description": "Design turned into code front-end challenge to work on fundamentals",
+    "image": HuddleProject,
+    "secondImage": HuddleProject,
+    "inDepth": huddleInDepth(),
+    "techStack": huddleTechStack(),
+    "github": "https://github.com/jlaluces123/Huddle-Landing-Page-Challenge",
+    "demo": "",
   },
 
 ];
