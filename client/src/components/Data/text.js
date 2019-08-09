@@ -139,14 +139,11 @@ export function nGroupsInDepth() {
   return (
     <div className="description">
       <p className = "description__paragraph">
-        Giphy is something I have used quite a bit during my spare time, so I thought why not try to recreate it? Using there
-        <code>Official API</code>, I was able to make a plethora of <code>API Calls</code> from my front end code!
+        Brought up to me by one of my friends, we decided to get rid of the old clunky system to find neighborhood groups and create our own new and improved version!
       </p>
 
       <p className="description__paragraph">
-        With the help of the <code>Giphy SDK</code> (software development kit) and <code>Official Giphy API</code>, I brought one of my most
-        favorite side projects to life! The app features the ability to: <code>dynamically search</code> for Gifs, see the most
-        trending gifs, as well as view stickers!
+        Currently a work in progress, we paired <code>React</code> on the front end with <code>Python</code> and <code>Django</code> on the backend!
       </p>
     </div>
   );
@@ -156,18 +153,19 @@ export function nGroupsTechStack() {
   return (
     <div className="tech">
       <p className="description__paragraph">
-        For hosting, I decided to go with <code>Firebase's Hosting Service</code> this time around. With Firebase, it was
-        super easy to host my react code and comes with a plethora of services like authorization which could come in handy for the future.
+        Lets start with the front end. I created the front end code with React. With the use of the <code>Fetch API</code>, I was able to
+        pull data from the backend that was made. The fetch API uses <code>JavaScript Promises</code> to handle <code>Asynchronous</code> responses, which allowed me to use one of my favorite things about React: t
+        he <code>Component Life Cycle Methods</code>!
       </p>
 
       <p className="description__paragraph">
-        Since I knew this application would have more than one page, I decided to go with <code>React-Router-DOM</code> as it provides, in my opinion, the best way to handle routing dynamically.
+        Using the fetch API, I made an API call inside the <code>componentDidMount()</code> lifecycle method to <code>store data in state</code>!
+        Using the component's state I was able to pass <code>properties</code> down to other components that consumed them.
       </p>
 
 
       <p className="description__paragraph">
-        Using <code>React's State</code> and <code>Component Lifecycle Methods</code>, I was able to <code>fetch data</code> from the API, and pass out the
-        information my components need accordingly.
+        With the data handling out of the way, the web app also features <code>Responsive</code> design, to ensure the best <code>User Experience</code> whether on your desktop, or on the go!
       </p>
     </div>
   );
