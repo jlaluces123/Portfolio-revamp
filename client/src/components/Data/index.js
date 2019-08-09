@@ -102,7 +102,7 @@ export const projectArr = [
     "inDepth": huddleInDepth(),
     "techStack": huddleTechStack(),
     "github": "https://github.com/jlaluces123/ngroups-frontend",
-    "demo": "",
+    "demo": "https://neighborhood-groups-finder.firebaseapp.com/",
   },
 
 ];
