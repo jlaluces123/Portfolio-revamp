@@ -10,6 +10,7 @@ import BlogProject from "../../assets/blog_home.webp";
 import HuddleProject from "../../assets/huddle_challenge.webp";
 
 import GiphyClone from "../../assets/giphy_clone.webp";
+import GiphyClone2 from "../../assets/giphy_clone_lg.webp";
 
 import Ngroups from "../../assets/ngroups_project.webp";
 
@@ -25,6 +26,9 @@ import {
 
   huddleInDepth,
   huddleTechStack,
+
+  giphyInDepth,
+  giphyTechStack,
 } from "./text.js";
 
 export const projectArr = [
@@ -81,9 +85,9 @@ export const projectArr = [
     "link": "/projects/giphy-clone",
     "description": "Taking one of my most used apps and creating a neat replica",
     "image": GiphyClone,
-    "secondImage": "",
-    "inDepth": huddleInDepth(),
-    "techStack": huddleTechStack(),
+    "secondImage": GiphyClone2,
+    "inDepth": giphyInDepth(),
+    "techStack": giphyTechStack(),
     "github": "https://github.com/jlaluces123/Giphy-Clone",
     "demo": "https://giphy-clone-6a8f9.firebaseapp.com/",
   },
