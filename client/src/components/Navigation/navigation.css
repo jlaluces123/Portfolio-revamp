@@ -17,6 +17,19 @@
   font-weight: bold;
 }
 
+.logo {
+  height: 80px;
+  margin-top: 20px;
+  transition: 0.3s;
+  border-radius: 50%;
+}
+
+.logo:hover {
+  transform: rotate(35deg);
+  transition: 0.3s;
+  background-color: #68B4FF;
+}
+
 .navigation__btn {
   border: none;
   background: none;

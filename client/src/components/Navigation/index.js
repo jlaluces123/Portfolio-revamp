@@ -7,12 +7,15 @@ import { Link } from "react-router-dom";
 // Assets
 import LinkedIn from "../../assets/linkedin.png";
 import Github from "../../assets/github_white.png";
+import Penguin from "../../assets/penguin_noun.svg";
 
 const Navigation = (props) => {
   return (
     <div className="container">
       <div className="navigation">
-        <Link className = "navigation__home" to = "/">Jonathan Laluces</Link>
+        <Link className = "navigation__home" to = "/">
+          <img src = {Penguin} alt = "Penguin black and white logo" className = "logo"/>
+        </Link>
         <button className="navigation__btn" onClick = {props.handleMenu}>&#9776;</button>
       </div>
 
