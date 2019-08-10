@@ -6,7 +6,7 @@
 }
 
 .project {
-  margin-bottom: 2%;
+  margin-bottom: 5%;
   position: relative; /* relative to keep all the position absolutes inside their own box */
   border-radius: 10px;
 }

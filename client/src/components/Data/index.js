@@ -12,6 +12,7 @@ import Ngroups from "../../assets/ngroups_project.webp";
 import Ngroups2 from "../../assets/ngroups_lg.webp";
 
 import BlogProject from "../../assets/blog_home.webp";
+import BlogProject2 from "../../assets/blog_lg.webp";
 
 import HuddleProject from "../../assets/huddle_challenge.webp";
 
@@ -28,6 +29,9 @@ import {
 
   giphyInDepth,
   giphyTechStack,
+
+  gatsbyInDepth,
+  gatsbyTechStack,
 
   huddleInDepth,
   huddleTechStack,
@@ -90,23 +94,23 @@ export const projectArr = [
     "link": "/projects/blog",
     "description": "Blog website made with React and Gatsby",
     "image": BlogProject,
-    "secondImage": "",
-    "inDepth": "",
-    "techStack": "",
+    "secondImage": BlogProject2,
+    "inDepth": gatsbyInDepth(),
+    "techStack": gatsbyTechStack(),
     "github": "https://github.com/jlaluces123/Gatsby-Blog-Site-Remake",
-    "demo": "",
+    "demo": "https://gatsby-blog-e40ac.firebaseapp.com/",
   },
 
-  {
-    "title": "Huddle Landing Page Challenge",
-    "link": "/projects/huddle-landing-page",
-    "description": "Design turned into code front-end challenge to work on fundamentals",
-    "image": HuddleProject,
-    "secondImage": HuddleProject,
-    "inDepth": huddleInDepth(),
-    "techStack": huddleTechStack(),
-    "github": "https://github.com/jlaluces123/Huddle-Landing-Page-Challenge",
-    "demo": "",
-  },
+  // {
+  //   "title": "Huddle Landing Page Challenge",
+  //   "link": "/projects/huddle-landing-page",
+  //   "description": "Design turned into code front-end challenge to work on fundamentals",
+  //   "image": HuddleProject,
+  //   "secondImage": HuddleProject,
+  //   "inDepth": huddleInDepth(),
+  //   "techStack": huddleTechStack(),
+  //   "github": "https://github.com/jlaluces123/Huddle-Landing-Page-Challenge",
+  //   "demo": "",
+  // },
 
 ];

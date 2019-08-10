@@ -206,3 +206,48 @@ export function huddleTechStack() {
     </div>
   );
 };
+
+// --------------------------------------------------------------------------------------------------------------------------------------------
+
+// Gatsby Blog Project -- Text
+export function gatsbyInDepth() {
+  return (
+    <div className="description">
+      <p className = "description__paragraph">
+        The last 5 weeks of my time at Lambda School's coding bootcamp was spent working with a group of developers on our final
+        capstone project! After completing the <a className = "view__btn" href = "/projects/lets-get-tacos">capstone project</a> I decided to write
+        about the experience!
+      </p>
+
+      <p className = "description__paragraph">
+        After some researching, I found that <code>Gatsby</code> is great for creating blog websites as it comes with easy ways to create blog posts even for people who aren't developers!
+      </p>
+    </div>
+  );
+};
+
+export function gatsbyTechStack() {
+  return (
+    <div className="tech">
+      <p className="description__paragraph">
+        As expected, I used <code>Gatsby</code> paired with <code>React</code> to get the job done for this project.
+      </p>
+
+      <p className="description__paragraph">
+        Gatsby comes with a special magic that allows you to create and write in <code>Markdown</code> which is then transformed into
+        HTML blog posts. Not only does this make blog posts easier to write, but it opens the ability to allow other people
+        who have no coding experience to edit and create their own blog posts!
+      </p>
+
+      <p className="description__paragraph">
+        With Gatsby, you get the ability to use <code>GraphQL</code> as well. Being my first time touching GraphQL, I learned how to <code>Query</code> through
+        the blog posts and display them accordingly.
+      </p>
+
+      <p className="description__paragraph">
+        For styling purposes I stuck with regular <code>CSS</code>, and used <code>Media Queries</code> to create a <code>Responsive</code> website that handles the view on all devices.
+      </p>
+
+    </div>
+  );
+};
