@@ -36,6 +36,12 @@ const SinglePage = (props) => {
             {data.techStack}
           </div>
 
+          <div className="view__more">
+            <p className="info__text">
+              <a href="/" className="view__btn">Go back</a> or check out my resume <a href="/resume" className="view__btn">here</a>
+            </p>
+          </div>
+
         </div>
       </div>
     );
