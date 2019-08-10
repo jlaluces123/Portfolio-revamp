@@ -13,8 +13,37 @@
   margin: 0 10%;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   width: 80%;
   height: inherit;
+}
+
+.footer__left {
+  text-align: center;
+}
+
+.footer__item {
+  color: rgba(255,255,255,.7);
+  font-size: 1.2rem;
+  text-decoration: none;
+  margin-right: 1%;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.footer__link:hover {
+  color: rgba(255,255,255,1);
+  transition: 0.1s ease-in-out;
+}
+
+.footer__copyright {
+  font-size: 1.1rem;
+  color: rgba(255,255,255,.7);
+  letter-spacing: 0.3px;
+}
+
+.footer__right {
+  font-family: 'PT Sans', sans-serif;
+  color: rgba(255,255,255,.7);
+  text-align: right;
 }

@@ -5,6 +5,8 @@ import "./navigation.css";
 import { Link } from "react-router-dom";
 
 // Assets
+import LinkedIn from "../../assets/linkedin.png";
+import Github from "../../assets/github_white.png";
 
 const Navigation = (props) => {
   return (
@@ -21,7 +23,6 @@ const Navigation = (props) => {
           <div className="hidden__content">
             <Link className = "hidden__btn" to = "/">Home</Link>
             <Link className = "hidden__btn" to = "/about">About</Link>
-            <Link className = "hidden__btn" to = "/portfolio">Portfolio</Link>
             <Link className = "hidden__btn" to = "/resume">Resume</Link>
           </div>
 
@@ -32,13 +33,21 @@ const Navigation = (props) => {
             <p>Los Angeles, CA</p>
 
             <div className="btn__container">
-              <li><a href="/"><img className = "social__btn" alt = "social media button to profiles"/></a></li>
-              <li><a href="/"><img className = "social__btn" alt = "social media button to profiles"/></a></li>
-              <li><a href="/"><img className = "social__btn" alt = "social media button to profiles"/></a></li>
+              {/* LinkedIn */}
+              <li>
+                <a rel = "noopener noreferrer" target = "_blank" href = "https://www.linkedin.com/in/jonathan-laluces/">
+                  <img alt = "social media button: LinkedIn - Jonathan Laluces" className = "social__btn" src = {LinkedIn} />
+                </a>
+              </li>
+              {/* Github */}
+              <li>
+                <a rel = "noopener noreferrer" target = "_blank" href="https://github.com/jlaluces123">
+                  <img alt = "social media button: Github - Jonathan Laluces" className = "social__btn" src = {Github} />
+                </a>
+              </li>
             </div>
           </div>
         </div>
-
       </div>
     </div>
   );

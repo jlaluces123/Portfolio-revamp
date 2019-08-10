@@ -101,10 +101,9 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  width: 60%;
 }
 
 .social__btn {
-  max-height: 50px;
-  border-radius: 50%;
-  /* border: 1px solid white; */
+  max-height: 40px;
 }

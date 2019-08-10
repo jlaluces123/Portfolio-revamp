@@ -11,28 +11,27 @@ const Footer = () => {
 
         <div className="footer__left">
           <div className="footer__links">
-            <Link to = "/about">About</Link>
-            <span>-</span>
-            <Link to = "/portfolio">Portfolio</Link>
-            <span>-</span>
-            <Link to = "/resume">Resume</Link>
+            <Link className = "footer__item footer__link" to = "/">Home</Link>
+            <span className = "footer__item">—</span>
+            <Link className = "footer__item footer__link" to = "/about">About</Link>
+            <span className = "footer__item">—</span>
+            <Link className = "footer__item footer__link" to = "/resume">Resume</Link>
           </div>
-          <p className="footer__copyright">@2019, Made with React by Jonathan Lalcues</p>
+          <p className="footer__copyright">©2019 Jonathan Laluces</p>
         </div>
 
-        <div className="footer__right">
-          {/* Right */}
+        {/* <div className="footer__right">
           <h3 className = "contact__header">Contact Info:</h3>
-          <p>(908) 414 3555</p>
           <p>jlalucescareer123@gmail.com</p>
+          <p>(908) 414 3555</p>
           <p>Los Angeles, CA</p>
 
           <div className="btn__container">
-            <li><a href="/"><img className = "social__btn" alt = "social media button to profiles"/></a></li>
-            <li><a href="/"><img className = "social__btn" alt = "social media button to profiles"/></a></li>
-            <li><a href="/"><img className = "social__btn" alt = "social media button to profiles"/></a></li>
+            <li><a href="/"><img className = "social__btn"/></a></li>
+            <li><a href="/"><img className = "social__btn"/></a></li>
+            <li><a href="/"><img className = "social__btn"/></a></li>
           </div>
-        </div>
+        </div> */}
 
       </div>
     </div>

@@ -5,15 +5,15 @@ import TacoProject2 from "../../assets/taco_create_lg.webp";
 import FreelyProject from "../../assets/meditation_app.webp";
 import FreelyProject2 from "../../assets/meditation_lg.webp";
 
-import BlogProject from "../../assets/blog_home.webp";
-
-import HuddleProject from "../../assets/huddle_challenge.webp";
-
 import GiphyClone from "../../assets/giphy_clone.webp";
 import GiphyClone2 from "../../assets/giphy_clone_lg.webp";
 
 import Ngroups from "../../assets/ngroups_project.webp";
 import Ngroups2 from "../../assets/ngroups_lg.webp";
+
+import BlogProject from "../../assets/blog_home.webp";
+
+import HuddleProject from "../../assets/huddle_challenge.webp";
 
 // Text Data
 import {
