@@ -1,0 +1,106 @@
+.resume {
+  margin: 0 10%;
+}
+
+.resume__hero {
+  background-image: url("../../assets/resume.webp");
+  background-size: cover;
+}
+
+.download {
+  font-size: 1.4rem;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  margin-top: 5%;
+}
+
+.resume__page {
+  margin-top: 5%;
+}
+
+.projects__top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1%;
+}
+
+.project__box {
+  margin-bottom: 5%;
+  border-bottom: 1px solid grey;
+  padding-bottom: 5%;
+}
+
+.job__title {
+  font-weight: 900;
+  font-size: 2rem;
+}
+
+.job__title, .project__name {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.experience__date {
+  font-family: 'Roboto', sans-serif;
+}
+
+.project__name {
+  font-size: 1.2rem;
+  margin-bottom: 1%;
+}
+
+.project__info {
+  width: 70%;
+  color: rgb(72, 72, 72);
+  letter-spacing: 0.5px;
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Skills Section */
+.skills__title {
+  margin-bottom: 1%;
+  font-size: 2rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.skills__tools {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+
+.tools__header {
+  margin-bottom: 1%;
+}
+
+.tools__div {
+  margin-bottom: 2%;
+}
+
+.tech__header {
+  font-size: 1.3rem;
+  margin-bottom: 1%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.tools__list {
+  list-style-type: none;
+  margin-left: 1%;
+  font-family: 'Roboto', sans-serif;
+}
+
+.tools__list li:before {
+  content: "\2713\0020";
+}
+
+.education__title {
+  border-top: 1px solid grey;
+  margin-top: 5%;
+  padding-top: 5%;
+  margin-bottom: 2%;
+  font-size: 2rem;
+  font-family: 'Montserrat', sans-serif;
+}
