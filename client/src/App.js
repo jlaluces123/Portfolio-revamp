@@ -7,6 +7,7 @@ import Navigation from "./components/Navigation/index.js";
 import Home from "./components/Home/index.js";
 import SinglePage from "./components/SinglePage/index.js";
 import Footer from "./components/Footer/index.js";
+import About from "./components/About/index.js";
 
 
 class App extends React.Component {
@@ -35,6 +36,7 @@ class App extends React.Component {
         <main>
           <Route exact path = "/" component = {Home} />
           <Route path = "/projects/:name" component = {SinglePage} />
+          <Route path = "/about" component = {About} />
         </main>
 
         <footer>
