@@ -39,7 +39,8 @@ const Resume = () => {
 
           <h4 className = "project__name">Visual Communications</h4>
           <p className = "project__info">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique rerum dolore ex omnis voluptate magni quas, dolorem porro aliquid doloremque tempore aut impedit dolores eaque? Praesentium ipsum labore atque sit?
+            Before I ever wrote my first line of code I was into the arts, specifically film and music! During this internship I learned what it took
+            to coordinate multiple volunteer teams, reaching out to communities, and learning how to maintain a Wordpress website.
           </p>
         </div>
 
