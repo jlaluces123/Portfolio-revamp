@@ -30,3 +30,43 @@
 .projects {
   margin-top: 20%;
 }
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+  .intro {
+    flex-direction: column;
+  }
+
+  .intro__pic {
+    margin-right: 0;
+  }
+
+  .intro__text {
+    text-align: center;
+  }
+
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+  .intro {
+    flex-direction: column;
+  }
+
+  .intro__pic {
+    margin-right: 0;
+  }
+
+  .intro__text {
+    text-align: center;
+  }
+
+  .intro__title {
+    font-size: 1rem;
+  }
+
+  .intro__name {
+    font-size: 2.2rem;
+  }
+
+}

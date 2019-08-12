@@ -12,7 +12,7 @@ const SinglePage = (props) => {
       <div className="individual-project">
         <div className="project__intro">
           <div className="project__header">
-            <h1 style = {{ color: "#484848" }}>{data.title}</h1>
+            <h1 className = "data__title">{data.title}</h1>
 
             <div className="info__btn">
               <p className = "info__text">

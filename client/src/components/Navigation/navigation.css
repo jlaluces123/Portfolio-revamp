@@ -120,3 +120,38 @@
 .social__btn {
   max-height: 40px;
 }
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+  .hidden__container {
+    flex-direction: column;
+    height: 60%;
+    margin-left: 6%;
+    align-items: flex-start;
+  }
+
+  .social__btn {
+    max-height: 30px;
+  }
+
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+  .logo {
+    height: 70px;
+    margin-top: 25px;
+  }
+
+  .hidden__container {
+    flex-direction: column;
+    height: 60%;
+    margin-left: 6%;
+    align-items: flex-start;
+  }
+
+  .social__btn {
+    max-height: 30px;
+  }
+
+}

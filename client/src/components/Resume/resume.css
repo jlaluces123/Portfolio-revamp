@@ -38,7 +38,7 @@
 }
 
 .job__title, .project__name {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .experience__date {
@@ -62,13 +62,12 @@
 .skills__title {
   margin-bottom: 1%;
   font-size: 2rem;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .skills__tools {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   flex-direction: row;
 }
 
@@ -83,7 +82,7 @@
 .tech__header {
   font-size: 1.3rem;
   margin-bottom: 1%;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .tools__list {
@@ -102,6 +101,127 @@
   padding-top: 5%;
   margin-bottom: 2%;
   font-size: 2rem;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
   text-align: center;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  .resume {
+    margin: 0 5%;
+  }
+
+  .job__title {
+    font-size: 1.7rem;
+  }
+
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+  .resume {
+    margin: 0 5%;
+  }
+
+  .projects__top {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 5%;
+    margin-bottom: 3%;
+  }
+
+  .job__title {
+    font-size: 1.5rem;
+  }
+
+  .project__info {
+    width: 100%;
+  }
+
+  .skills__title {
+    text-align: center;
+  }
+
+  .skills__tools {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .tools__div {
+    width: 100%;
+    margin-bottom: 5%;
+  }
+
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+  .resume {
+    margin: 0;
+  }
+
+  .download {
+    font-size: 1.2rem;
+  }
+
+  .resume__page {
+    margin: 0 2%;
+  }
+
+  .projects__top {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 5%;
+  }
+
+  .project__info {
+    width: 100%;
+    font-size: 13px;
+  }
+
+
+  .job__title {
+    font-size: 1rem;
+  }
+
+  .project__name {
+    margin-bottom: 5%;
+  }
+
+  .skills__title {
+    text-align: center;
+  }
+
+  .skills__title {
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 6%;
+  }
+
+  .skills__tools {
+    margin: 0 6%;
+    flex-direction: column;
+  }
+
+  .tools__div {
+    margin-top: 4%;
+    width: 100%;
+  }
+
+  .tech__header {
+    margin-bottom: 5%;
+  }
+
+  .tools__list {
+    margin-left: 0;
+  }
+
+  .education__title {
+    font-size: 1.7rem;
+  }
+
+  .education__div {
+    margin: 0 2%;
+  }
+
 }
