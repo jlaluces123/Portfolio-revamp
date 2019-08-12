@@ -91,6 +91,10 @@
   font-family: 'Roboto', sans-serif;
 }
 
+.tools__list li {
+  width: 150%;
+}
+
 .tools__list li:before {
   content: "\2713\0020";
 }

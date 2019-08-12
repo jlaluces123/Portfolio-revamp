@@ -18,16 +18,14 @@ const Resume = () => {
       <section className = "resume__page">
         <div className = "project__box">
           <div className = "projects__top">
-            <h2 className = "job__title">Full Stack Web Developer (Training)</h2>
-            <p className = "experience__date">February 2019 - March 2019</p>
+            <h2 className = "job__title">Web Developer</h2>
+            <p className = "experience__date">March 2019 - Present</p>
           </div>
 
-          <h4 className = "project__name">Let's Get Tacos</h4>
+          <h4 className = "project__name">Freelance</h4>
           <p className = "project__info">
-            Simulating a real developer team, I was paired with 3 other developers to fulfill a professional client's project request. I
-            hosted team meetings every morning, organized our Trello board, and made sure we avoided merge conflicts by coordinating the team to
-            certain tasks. From learning how to configure the Stripe payment API, to helping construct the front-end views or back-end endpoints,
-            the 5-week sprint was an amazing experience showcasing the true importance of organization.
+            I currently freelance for digital marketing agencies and any other clients I pick up. Throughout my time freelancing, I have learned more about boosting a site's performance, how to communicate to clients, and how to
+            manage my time efficiently while creating quality code.
           </p>
         </div>
 

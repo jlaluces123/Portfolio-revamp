@@ -33,6 +33,9 @@ class Home extends React.Component {
           <div className="intro__text">
             <h4 className = "intro__title">Front-End Web Developer & Cellist</h4>
             <h1 className = "intro__name">I'm Jonathan Laluces</h1>
+            <p className = "info__text">
+              Check out my projects below or view my <a className = "view__btn" href = "/resume">resume</a>
+            </p>
           </div>
         </div>
 

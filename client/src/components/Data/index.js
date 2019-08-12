@@ -14,7 +14,7 @@ import Ngroups2 from "../../assets/ngroups_lg.webp";
 import BlogProject from "../../assets/blog_home.webp";
 import BlogProject2 from "../../assets/blog_lg.webp";
 
-import HuddleProject from "../../assets/huddle_challenge.webp";
+// import HuddleProject from "../../assets/huddle_challenge.webp";
 
 // Text Data
 import {
@@ -33,8 +33,6 @@ import {
   gatsbyInDepth,
   gatsbyTechStack,
 
-  huddleInDepth,
-  huddleTechStack,
 } from "./text.js";
 
 
