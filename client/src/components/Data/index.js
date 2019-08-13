@@ -1,18 +1,18 @@
 // Assets
-import TacoProject from "../../assets/taco_dashboard.webp";
-import TacoProject2 from "../../assets/taco_create_lg.webp";
+import TacoProject from "../../assets/taco_dashboard.png";
+import TacoProject2 from "../../assets/taco_create_lg.png";
 
-import FreelyProject from "../../assets/meditation_app.webp";
-import FreelyProject2 from "../../assets/meditation_lg.webp";
+import FreelyProject from "../../assets/meditation_app.png";
+import FreelyProject2 from "../../assets/meditation_lg.png";
 
-import GiphyClone from "../../assets/giphy_clone.webp";
-import GiphyClone2 from "../../assets/giphy_clone_lg.webp";
+import GiphyClone from "../../assets/giphy_clone.png";
+import GiphyClone2 from "../../assets/giphy_clone_lg.png";
 
-import Ngroups from "../../assets/ngroups_project.webp";
-import Ngroups2 from "../../assets/ngroups_lg.webp";
+import Ngroups from "../../assets/ngroups_project.png";
+import Ngroups2 from "../../assets/ngroups_lg.png";
 
-import BlogProject from "../../assets/blog_home.webp";
-import BlogProject2 from "../../assets/blog_lg.webp";
+import BlogProject from "../../assets/blog_home.png";
+import BlogProject2 from "../../assets/blog_lg.png";
 
 // import HuddleProject from "../../assets/huddle_challenge.webp";
 

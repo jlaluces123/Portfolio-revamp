@@ -7,7 +7,8 @@ import Projects from "../Projects/index.js";
 import { projectArr } from "../Data/index.js";
 
 // Assets
-import Profile from "../../assets/cropped_smiling.webp";
+import ProfileWebP from "../../assets/cropped_smiling.webp";
+import Profile from "../../assets/cropped_smiling.jpeg";
 
 class Home extends React.Component {
   state = {
@@ -29,7 +30,10 @@ class Home extends React.Component {
 
         {/* Intro section */}
         <div className="intro">
-          <img className = "intro__pic" src = {Profile} alt = "smiling version of me" />
+          <picture>
+            <source srcSet = {ProfileWebP} type = "image/webp" />
+            <img className = "intro__pic" src = {Profile} alt = "smiling version of me" />
+          </picture>
           <div className="intro__text">
             <h4 className = "intro__title">Front-End Web Developer & Cellist</h4>
             <h1 className = "intro__name">I'm Jonathan Laluces</h1>
