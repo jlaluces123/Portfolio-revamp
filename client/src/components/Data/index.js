@@ -1,5 +1,5 @@
 // Assets
-import TacoProject from "../../assets/taco_dashboard.png";
+import TacoProject from "../../assets/taco_home.png";
 import TacoProject2 from "../../assets/taco_create_lg.png";
 
 import FreelyProject from "../../assets/meditation_app.png";
