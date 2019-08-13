@@ -103,7 +103,8 @@ const Resume = () => {
 
             <h4 className = "project__name">Certificate of Completion</h4>
             <p className = "project__info">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique rerum dolore ex omnis voluptate magni quas, dolorem porro aliquid doloremque tempore aut impedit dolores eaque? Praesentium ipsum labore atque sit?
+              Lambda School is an intensive Computer Science & Software Engineering Academy that focuses on real­ world practices, taking students
+              through a hands­-on experience using an in-­depth curriculum that focuses on Computer Science, Software Engineering, and Web Development.
             </p>
           </div>
         </div>
