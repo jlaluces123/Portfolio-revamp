@@ -18,8 +18,21 @@ const Resume = () => {
       <section className = "resume__page">
         <div className = "project__box">
           <div className = "projects__top">
+            <h2 className = "job__title">Software Engineer</h2>
+            <p className = "experience__date">September 2019 - Present</p>
+          </div>
+
+          <h4 className = "project__name">Lambda Studios</h4>
+          <p className = "project__info">
+            Lambda Studios is Lambda School's in-house agency! As a developer for Lambda Studios, I take on projects given by clients and work with a team of developers to create our clients' dreams and turn them into reality. Utilizing
+            agile methodology, as a team of developers we prioritize tasks, hold stand up meetings, meet with clients, and develop full applications from scratch.
+          </p>
+        </div>
+
+        <div className = "project__box">
+          <div className = "projects__top">
             <h2 className = "job__title">Web Developer</h2>
-            <p className = "experience__date">March 2019 - Present</p>
+            <p className = "experience__date">March 2019 - September 2019</p>
           </div>
 
           <h4 className = "project__name">Freelance</h4>
