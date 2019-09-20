@@ -20,6 +20,12 @@ const Footer = () => {
           <p className="footer__copyright">©2019 Jonathan Laluces</p>
         </div>
 
+        <div className="footer__right">
+          <span className="contact__item">(908) 414 3555</span>
+          <span className="contact__item">jlalucescareer123@gmail.com</span>
+          <span className="contact__item">Los Angeles, CA</span>
+        </div>
+
         {/* <div className="footer__right">
           <h3 className = "contact__header">Contact Info:</h3>
           <p>jlalucescareer123@gmail.com</p>
