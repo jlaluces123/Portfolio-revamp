@@ -2,7 +2,7 @@ import React from 'react';
 import "./resume.css";
 
 // Assets
-import ResumePDF from "../../assets/JLResume.pdf";
+import ResumePDF from "../../assets/JonathanLaluces_Resume.pdf";
 
 const Resume = () => {
   return (
@@ -12,7 +12,7 @@ const Resume = () => {
       </section>
 
       <p className = "download">
-        Download my resume <a download = "JLResume.pdf" href={ResumePDF} title = "Jonathan Laluces Resume" className = "view__btn">here</a>
+        Download my resume <a download = "JonathanLaluces_Resume.pdf" href={ResumePDF} title = "Jonathan Laluces Resume" className = "view__btn">here</a>
       </p>
 
       <section className = "resume__page">
