@@ -26,19 +26,6 @@ const Footer = () => {
           <span className="contact__item">Los Angeles, CA</span>
         </div>
 
-        {/* <div className="footer__right">
-          <h3 className = "contact__header">Contact Info:</h3>
-          <p>jlalucescareer123@gmail.com</p>
-          <p>(908) 414 3555</p>
-          <p>Los Angeles, CA</p>
-
-          <div className="btn__container">
-            <li><a href="/"><img className = "social__btn"/></a></li>
-            <li><a href="/"><img className = "social__btn"/></a></li>
-            <li><a href="/"><img className = "social__btn"/></a></li>
-          </div>
-        </div> */}
-
       </div>
     </div>
   );
