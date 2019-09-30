@@ -17,7 +17,7 @@ const Footer = () => {
             <span className = "footer__item">—</span>
             <Link className = "footer__item footer__link" to = "/resume">Resume</Link>
           </div>
-          <p className="footer__copyright">©2019 Jonathan Laluces</p>
+          <p className="footer__copyright">© 2019 Jonathan Laluces</p>
         </div>
 
         <div className="footer__right">
