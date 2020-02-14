@@ -21,13 +21,13 @@ const BigNav = props => {
                 <div className='navigation__right'>
                     <ul className='list__big'>
                         <li className='list__item'>
-                            <Link>Home</Link>
+                            <Link to='/'>Home</Link>
                         </li>
                         <li className='list__item'>
-                            <Link>About</Link>
+                            <Link to='/about'>About</Link>
                         </li>
                         <li className='list__item'>
-                            <Link>Resume</Link>
+                            <Link to='/resume'>Resume</Link>
                         </li>
                         <li className='list__item display-contents'>
                             <a
