@@ -2,7 +2,7 @@ import React from 'react';
 import './resume.css';
 
 // Assets
-import ResumePDF from '../../assets/JonathanLaluces_UpdatedResumeFebruary.pdf';
+import ResumePDF from '../../assets/Refined_Resume.pdf';
 
 const Resume = () => {
     return (
@@ -28,7 +28,7 @@ const Resume = () => {
                     <div className='projects__top'>
                         <h2 className='job__title'>Software Engineer</h2>
                         <p className='experience__date'>
-                            September 2019 - Present
+                            September 2019 - February 2020
                         </p>
                     </div>
 
@@ -105,6 +105,8 @@ const Resume = () => {
                         <ul className='tools__list'>
                             <li>NodeJS</li>
                             <li>Express</li>
+                            <li>MongoDB</li>
+                            <li>Mongoose</li>
                             <li>Knex</li>
                             <li>SQL</li>
                             <li>SQLite3</li>

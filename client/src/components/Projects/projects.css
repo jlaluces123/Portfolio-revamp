@@ -1,78 +1,69 @@
 .list {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .project {
-  margin-bottom: 5%;
-  position: relative; /* relative to keep all the position absolutes inside their own box */
-  border-radius: 10px;
+    margin-bottom: 5%;
+    position: relative; /* relative to keep all the position absolutes inside their own box */
+    border-radius: 10px;
 }
 
 .project__img {
-  max-width: 500px;
-  border-radius: 10px;
-  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-  transition: .5s ease;
-  opacity: 1;
+    max-width: 500px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 2.5px 0px rgba(0, 0, 0, 0.75);
+    transition: 0.5s ease;
+    opacity: 1;
 }
 
 .img__overlay {
-  opacity: 0;
-  text-align: center;
-  transition: .5s ease;
-  background-color: rgba(0,0,0,0.75);
-  color: white;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%); /* put into middle of picture */
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+    opacity: 0;
+    text-align: center;
+    transition: 0.5s ease;
+    background-color: rgba(0, 0, 0, 0.75);
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* put into middle of picture */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .overlay__paragraph {
-  font-family: 'PT Sans', sans-serif;
+    font-family: 'PT Sans', sans-serif;
 }
 
 .project:hover .project__img {
-  opacity: 0.3;
+    opacity: 0.3;
 }
 
 .project:hover .img__overlay {
-  opacity: 1;
-  border-radius: 10px;
+    opacity: 1;
+    border-radius: 10px;
 }
-
-
 
 @media (min-width: 768px) and (max-width: 1024px) {
-
-  .project__img {
-    box-shadow: 2px 10px 5px 0px rgba(0,0,0,0.75);
-  }
-
+    .project__img {
+        box-shadow: 2px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    }
 }
 
-
 @media (min-width: 481px) and (max-width: 767px) {
-
-  .project__img {
-    max-width: 450px;
-  }
-
+    .project__img {
+        max-width: 450px;
+    }
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
-
-  .project__img {
-    max-width: 300px;
-  }
-
+    .project__img {
+        max-width: 300px;
+    }
 }
