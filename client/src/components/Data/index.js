@@ -1,5 +1,5 @@
 // Assets
-import TaskMaster from '../../assets/task_master_lg.png';
+import TaskMaster from '../../assets/task_master_1.png';
 import TaskMaster2 from '../../assets/task_master_sitemap.PNG';
 
 import TacoProject from '../../assets/taco_home.png';
