@@ -1,7 +1,7 @@
 import React from 'react';
 
 // Component Imports
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 const Project = (props) => {
     // console.log("props from Project\n", props);
