@@ -8,7 +8,7 @@ import BigNav from './BigNav.js';
 class Navigation extends React.Component {
     state = {
         visible: false,
-        width: 0
+        width: 0,
     };
 
     componentDidMount = () => {
@@ -25,13 +25,13 @@ class Navigation extends React.Component {
     };
 
     readWindowSize = () => {
-        console.log('detected window width: ', window.innerWidth);
+        // console.log('detected window width: ', window.innerWidth);
         this.setState({ width: window.innerWidth });
     };
 
     render() {
         if (this.state.width > 768) {
-            console.log(this.state.width);
+            // console.log(this.state.width);
             return <BigNav />;
         } else {
             return (

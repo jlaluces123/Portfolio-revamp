@@ -1,6 +1,9 @@
 // Assets
-import TaskMaster from '../../assets/task_master_1.png';
-import TaskMaster2 from '../../assets/task_master_sitemap.PNG';
+import SongOnSpotify from '../../assets/song_on_spotify_home.PNG';
+import SongOnSpotify2 from '../../assets/song_on_spotify_site.PNG';
+
+// import TaskMaster from '../../assets/task_master_1.png';
+// import TaskMaster2 from '../../assets/task_master_sitemap.PNG';
 
 import TacoProject from '../../assets/taco_home.png';
 import TacoProject2 from '../../assets/taco_create_lg.png';
@@ -21,8 +24,10 @@ import BlogProject2 from '../../assets/blog_lg.png';
 
 // Text Data
 import {
-    taskMasterInDepth,
-    taskMasterTechStack,
+    songOnSpotifyInDepth,
+    songOnSpotifyTechStack,
+    // taskMasterInDepth,
+    // taskMasterTechStack,
     tacoInDepth,
     tacoTechStack,
     freelyInDepth,
@@ -37,18 +42,16 @@ import {
 
 export const projectArr = [
     {
-        title: 'Task Master',
-        link: '/projects/task-master',
-        description:
-            'MERN App Aimed to Increase Productivity and Reduce Stress',
-        image: TaskMaster,
-        secondImage: TaskMaster2,
-        inDepth: taskMasterInDepth(),
-        techStack: taskMasterTechStack(),
-        github: 'https://github.com/jlaluces123/Task-Master',
-        demo: 'https://github.com/jlaluces123/Task-Master',
+        title: 'Song On Spotify',
+        link: '/projects/song-on-spotify',
+        description: 'App used to add songs to your playlists fast',
+        image: SongOnSpotify,
+        secondImage: SongOnSpotify2,
+        inDepth: songOnSpotifyInDepth(),
+        techStack: songOnSpotifyTechStack(),
+        github: 'https://github.com/jlaluces123/SongOnSpotify',
+        demo: 'https://song-on-spotify.netlify.app/',
     },
-
     {
         title: 'Lets Get Tacos',
         link: '/projects/lets-get-tacos',

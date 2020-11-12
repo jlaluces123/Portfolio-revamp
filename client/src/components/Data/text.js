@@ -2,6 +2,64 @@
 // Didn't like having them in one file
 import React from 'react';
 
+export function songOnSpotifyInDepth() {
+    return (
+        <div className='description'>
+            <p className='description__paragraph'>
+                Song On Spotify is a <code>Full Stack</code> web app used as a
+                solution to add songs to your playlists on spotify faster.
+            </p>
+
+            <p className='description__paragraph'>
+                Using Spotify's API services, users can log in quickly, select
+                the playlist they want to add their songs to, and search up
+                songs to add to their playlist!
+            </p>
+        </div>
+    );
+}
+
+export function songOnSpotifyTechStack() {
+    return (
+        <div className='tech'>
+            <p className='description__paragraph'>
+                Following Spotify's <code>Authentication Flow</code> I created a
+                simple&nbsp;
+                <code>NodeJS</code> and <code>Express</code> backend to interact
+                with the authorization endpoints Spotify provides.
+            </p>
+
+            <p className='description__paragraph'>
+                With the authorization flow complete, I was able to gather{' '}
+                <code>Access Tokens</code>&nbsp; to use on our frontend
+                services.
+            </p>
+
+            <p className='description__paragraph'>
+                For the <code>Front End</code> of the project, I decided to go
+                with <code>React hooks</code>. Hooks provides me with easier
+                <code>State Management</code> and the ability to create
+                useful&nbsp;
+                <code>Custom Hooks</code> to further simplify state management.
+            </p>
+
+            <p className='description__paragraph'>
+                As a means to expirement, I learned how to set up{' '}
+                <code>TailwindCSS</code>,&nbsp; a utility first CSS{' '}
+                <code>Framework</code> that allowed me build my designs faster.
+            </p>
+
+            <p className='description__paragraph'>
+                <code>Figma</code> being my design tool of choice, allows me to
+                take the complexity out of the small details in{' '}
+                <code>UI Design</code>. With the numerous tools in Figma, I am
+                able to generate quick and easy <code>Prototypes</code> of the
+                Task Master web app.
+            </p>
+        </div>
+    );
+}
+
 export function taskMasterInDepth() {
     return (
         <div className='description'>
