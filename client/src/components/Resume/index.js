@@ -2,7 +2,7 @@ import React from 'react';
 import './resume.css';
 
 // Assets
-import ResumePDF from '../../assets/Refined_Resume.pdf';
+import ResumePDF from '../../assets/Jonathan_Laluces_November_2020.pdf';
 
 const Resume = () => {
     return (
@@ -26,21 +26,38 @@ const Resume = () => {
             <section className='resume__page'>
                 <div className='project__box'>
                     <div className='projects__top'>
+                        <h2 className='job__title'>Lead Software Engineer</h2>
+                        <p className='experience__date'>
+                            April 2020 - October 2020
+                        </p>
+                    </div>
+
+                    <h4 className='project__name'>Stealth Geo-Data Startup</h4>
+                    <p className='project__info'>
+                        Being the sole engineer, I was tasked with creating a
+                        web app&nbsp; that uses Geo-Data from New York City.
+                        Creating&nbsp; multiple components and functionalities,
+                        I got to study, expirement, and&nbsp; create the web app
+                        with multiple different technologies.
+                    </p>
+                </div>
+
+                <div className='project__box'>
+                    <div className='projects__top'>
                         <h2 className='job__title'>Software Engineer</h2>
                         <p className='experience__date'>
                             September 2019 - February 2020
                         </p>
                     </div>
 
-                    <h4 className='project__name'>Lambda Studios</h4>
+                    <h4 className='project__name'>Stealth Fin-Tech Startup</h4>
                     <p className='project__info'>
-                        Lambda Studios is Lambda School's in-house agency! As a
-                        developer for Lambda Studios, I take on projects given
-                        by clients and work with a team of developers to create
-                        our clients' dreams and turn them into reality.
-                        Utilizing agile methodology, as a team of developers we
-                        prioritize tasks, hold stand up meetings, meet with
-                        clients, and develop full applications from scratch.
+                        With my first ever experience working with a startup, I
+                        learned how to debug complex components, speed up our
+                        API data retrieval speeds, and became&nbsp; proficient
+                        in working with MongoDB. Alongside working on the
+                        backend, I got to create and design multiple pages on
+                        the client-facing&nbsp; app and the admin-facing app.
                     </p>
                 </div>
 
