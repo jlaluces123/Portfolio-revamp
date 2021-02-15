@@ -2,7 +2,7 @@ import React from 'react';
 import './resume.css';
 
 // Assets
-import ResumePDF from '../../assets/Jonathan_Laluces_2021.pdf';
+import ResumePDF from '../../assets/Jonathan_Laluces_Master_Resume.pdf';
 
 const Resume = () => {
     return (

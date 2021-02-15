@@ -1,4 +1,7 @@
 // Assets
+import ProudOfMe from '../../assets/ProudOf_Me_Home.PNG';
+import ProudOfMe2 from '../../assets/ProudOf_Me_Discover.PNG';
+
 import SongOnSpotify from '../../assets/song_on_spotify_home.PNG';
 import SongOnSpotify2 from '../../assets/song_on_spotify_site.PNG';
 
@@ -24,6 +27,8 @@ import BlogProject2 from '../../assets/blog_lg.png';
 
 // Text Data
 import {
+    proudOfMeInDepth,
+    proudOfMeTechStack,
     songOnSpotifyInDepth,
     songOnSpotifyTechStack,
     // taskMasterInDepth,
@@ -42,6 +47,18 @@ import {
 
 export const projectArr = [
     {
+        title: 'Proud Of Me',
+        link: '/projects/proud-of-me',
+        description:
+            'Web App For Users to Store and Share Their Achievements / Milestones',
+        image: ProudOfMe,
+        secondImage: ProudOfMe2,
+        inDepth: proudOfMeInDepth(),
+        techStack: proudOfMeTechStack(),
+        github: 'https://github.com/jlaluces123/ProudOf.Me',
+        demo: 'https://song-on-spotify.netlify.app/',
+    },
+    {
         title: 'Song On Spotify',
         link: '/projects/song-on-spotify',
         description: 'App used to add songs to your playlists fast',
@@ -50,7 +67,7 @@ export const projectArr = [
         inDepth: songOnSpotifyInDepth(),
         techStack: songOnSpotifyTechStack(),
         github: 'https://github.com/jlaluces123/SongOnSpotify',
-        demo: 'https://song-on-spotify.netlify.app/',
+        demo: 'https://proudofme.netlify.app/',
     },
     {
         title: 'Lets Get Tacos',

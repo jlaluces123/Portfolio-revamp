@@ -87,6 +87,17 @@
     align-items: center;
 }
 
+.close__btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 30px;
+    height: 30px;
+    margin-top: 40px;
+    margin-right: 40px;
+    color: white;
+}
+
 .hidden__container {
     height: 30%;
     width: inherit;

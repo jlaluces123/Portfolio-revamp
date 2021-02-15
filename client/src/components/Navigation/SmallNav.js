@@ -8,7 +8,7 @@ import LinkedIn from '../../assets/linkedin.png';
 import Github from '../../assets/github_white.png';
 import Penguin from '../../assets/penguin_noun.svg';
 
-const SmallNav = props => {
+const SmallNav = (props) => {
     return (
         <div className='container'>
             <div className='navigation'>
@@ -32,6 +32,20 @@ const SmallNav = props => {
                 {/* <button className="hidden__close" onClick = {props.handleMenu}>&times;</button> */}
 
                 <div className='hidden__container'>
+                    <svg
+                        className='close__btn'
+                        fill='none'
+                        stroke='currentColor'
+                        viewBox='0 0 24 24'
+                        xmlns='http://www.w3.org/2000/svg'
+                    >
+                        <path
+                            stroke-linecap='round'
+                            stroke-linejoin='round'
+                            stroke-width='2'
+                            d='M6 18L18 6M6 6l12 12'
+                        ></path>
+                    </svg>
                     <div className='hidden__content'>
                         <Link className='hidden__btn' to='/'>
                             Home
@@ -42,6 +56,7 @@ const SmallNav = props => {
                         <Link className='hidden__btn' to='/resume'>
                             Resume
                         </Link>
+                        <div />
                     </div>
 
                     <div className='hidden__contact'>

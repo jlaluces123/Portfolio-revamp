@@ -2,6 +2,65 @@
 // Didn't like having them in one file
 import React from 'react';
 
+export function proudOfMeInDepth() {
+    return (
+        <div className='description'>
+            <p className='description__paragraph'>
+                ProudOf.Me is a <code>Full Stack</code> web app that acts as an
+                archive for users to store the moments and milestones in their
+                life in one place to remind themselves why they're great when
+                experiencing impostor syndrome, anxiety, and anything that makes
+                them feel less than the champion they are.
+            </p>
+
+            <p className='description__paragraph'>
+                Users can also read others' stories as well as share their own,
+                fostering a community of positivity and a place to inspire each
+                other.
+            </p>
+        </div>
+    );
+}
+
+export function proudOfMeTechStack() {
+    return (
+        <div className='tech'>
+            <p className='description__paragraph'>
+                With simplicity in mind, leveraging <code>Node.js</code> paired
+                with <code>Passport.js</code>, users can sign up via their
+                Google accounts in a matter of seconds!
+            </p>
+
+            <p className='description__paragraph'>
+                With <code>Authentication</code> handled, users, and their posts
+                are all stored in <code>MongoDB</code> as it provides ultra-fast{' '}
+                <code>Read and Write</code> times.
+            </p>
+
+            <p className='description__paragraph'>
+                For the <code>Front End</code> of the project, I decided to go
+                with <code>React</code> using <code>React Hooks</code>. Hooks
+                provides me with easier
+                <code>State Management</code> and the ability to create
+                useful&nbsp;
+                <code>Custom Hooks</code> to further simplify state management.
+            </p>
+
+            <p className='description__paragraph'>
+                To further simplify the styling process I used{' '}
+                <code>Tailwind CSS</code>, a utility-first approach to CSS that
+                uses pre-made classes allowing you to never have to leave your
+                HTML, or having to create semantic class names that are hard to
+                maintain.
+            </p>
+
+            <p className='description__paragraph'>
+                With two more big updates to come, there is a lot more in store!
+            </p>
+        </div>
+    );
+}
+
 export function songOnSpotifyInDepth() {
     return (
         <div className='description'>
